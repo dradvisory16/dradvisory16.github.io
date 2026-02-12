@@ -42,4 +42,86 @@
 
       <div style="background:#fff;padding:18px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
         <h3 style="margin-top:0;">Estrategia de crecimiento</h3>
-        <p>Diseño y alineación de la estrategia comercial
+        <p>Diseño y alineación de la estrategia comercial y de posicionamiento para impulsar el crecimiento del negocio, asegurando coherencia entre mercado, propuesta de valor y objetivos estratégicos.</p>
+      </div>
+
+      <div style="background:#fff;padding:18px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
+        <h3 style="margin-top:0;">Optimización operativa</h3>
+        <p>Fortalecimiento de la estructura administrativa y de los procesos internos para mejorar la eficiencia, el control y la capacidad de ejecución de la organización.</p>
+      </div>
+
+      <div style="background:#fff;padding:18px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
+        <h3 style="margin-top:0;">Arquitectura financiera</h3>
+        <p>Diseño y consolidación de la estructura financiera del negocio para fortalecer el control, la lectura financiera y la toma de decisiones estratégicas.</p>
+      </div>
+    </div>
+
+    <!-- FILOSOFÍA INSTITUCIONAL -->
+    <h2 style="color:#0f172a;margin-top:60px;">Filosofía institucional</h2>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:18px;">
+
+      <!-- MISIÓN -->
+      <div style="background:#ffffff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
+        <h3 onclick="toggleContent('mision')" style="margin:0;color:#0f172a;cursor:pointer;">
+          Misión ▾
+        </h3>
+        <p id="mision" style="display:none;margin-top:10px;line-height:1.7;">
+          Acompañar a empresas en crecimiento mediante dirección estratégica, arquitectura financiera, optimización operativa y
+          diseño de crecimiento, construyendo organizaciones más rentables, ordenadas y preparadas para escalar.
+        </p>
+      </div>
+
+      <!-- VISIÓN -->
+      <div style="background:#ffffff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
+        <h3 onclick="toggleContent('vision')" style="margin:0;color:#0f172a;cursor:pointer;">
+          Visión ▾
+        </h3>
+        <p id="vision" style="display:none;margin-top:10px;line-height:1.7;">
+          Consolidar a DR Advisory como una firma institucional de referencia, reconocida por su criterio estratégico, influencia y
+          permanencia en el crecimiento de los negocios.
+        </p>
+      </div>
+
+      <!-- PRINCIPIOS -->
+      <div style="background:#ffffff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
+        <h3 onclick="toggleContent('principios')" style="margin:0;color:#0f172a;cursor:pointer;">
+          Principios ▾
+        </h3>
+        <ul id="principios" style="display:none;margin-top:10px;padding-left:18px;line-height:1.9;">
+          <li>Competimos por criterio, no por precio.</li>
+          <li>La estructura precede al crecimiento.</li>
+          <li>La profundidad es prioritaria al volumen.</li>
+          <li>Cada decisión se toma con visión de largo plazo.</li>
+          <li>El método propio es un activo estratégico.</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- A QUIÉN ACOMPAÑAMOS -->
+    <div style="background:#0f172a;color:#ffffff;padding:26px 22px;border-radius:12px;margin-top:60px;">
+      <h2 style="margin:0 0 10px;">A quién acompañamos</h2>
+      <p style="margin:0;line-height:1.7;">
+        Colaboramos con empresas en crecimiento y directivos con mentalidad de expansión que requieren mayor orden, control y
+        dirección para su siguiente etapa, y que buscan tomar decisiones con criterio estratégico y visión de largo plazo.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <div style="background:#0f172a;color:#fff;text-align:center;padding:18px 20px;">
+    © 2026 DR Advisory · Consultoría Empresarial
+  </div>
+
+  <!-- SCRIPT DESPLEGABLE -->
+  <script>
+    function toggleContent(id) {
+      const element = document.getElementById(id);
+      element.style.display = element.style.display === "none" ? "block" : "none";
+    }
+  </script>
+
+</body>
+</html>
