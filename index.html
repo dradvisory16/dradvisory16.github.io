@@ -8,127 +8,112 @@
 
 <body style="margin:0;font-family:Arial,Helvetica,sans-serif;background:#f5f7fa;color:#1f2933;">
 
+  <!-- BARRA DE NAVEGACIÓN -->
+  <div style="position:fixed;top:0;width:100%;background:#0f172a;color:#fff;
+              display:flex;justify-content:space-between;align-items:center;
+              padding:14px 28px;box-sizing:border-box;z-index:1000;">
+
+    <strong>DR Advisory</strong>
+
+    <div style="display:flex;gap:18px;align-items:center;">
+      <a href="#inicio" style="color:#fff;text-decoration:none;">Inicio</a>
+      <a href="#firma" style="color:#fff;text-decoration:none;">Firma</a>
+      <a href="#servicios" style="color:#fff;text-decoration:none;">Servicios</a>
+      <a href="#enfoque" style="color:#fff;text-decoration:none;">Enfoque</a>
+      <a href="#contacto" style="color:#fff;text-decoration:none;">Contacto</a>
+
+      <a href="https://wa.me/5215644899772"
+         style="background:#1d4ed8;color:#fff;text-decoration:none;
+                padding:10px 16px;border-radius:8px;">
+        Agenda una sesión
+      </a>
+    </div>
+  </div>
+
+  <!-- ESPACIO PARA NAV FIJA -->
+  <div style="height:80px;"></div>
+
   <!-- HERO -->
-  <div style="background:#0f172a;color:#fff;padding:80px 20px;text-align:center;">
-    <img src="logo-dr-advisory.png" alt="DR Advisory" style="height:48px;margin-bottom:20px;">
+  <section id="inicio" style="background:#0f172a;color:#fff;padding:90px 20px;text-align:center;">
     <h1 style="margin:0;font-size:44px;">DR Advisory</h1>
     <p style="margin:18px 0 0;font-size:18px;">
       Consultoría empresarial estratégica, operativa y financiera
     </p>
-  </div>
+  </section>
 
-  <!-- CONTENIDO PRINCIPAL -->
+  <!-- CONTENIDO -->
   <div style="max-width:1000px;margin:auto;padding:60px 20px;">
 
-    <!-- QUIÉNES SOMOS -->
-    <h2 style="color:#0f172a;">¿Quiénes somos?</h2>
-    <p style="font-size:16px;line-height:1.7;">
-      DR Advisory es una firma de consultoría empresarial que acompaña a empresas en crecimiento
-      en la toma de decisiones estratégicas, aportando dirección, estructura y criterio para
-      escalar de forma ordenada, controlada y con visión de largo plazo.
-    </p>
+    <!-- FIRMA -->
+    <section id="firma">
+      <h2 style="color:#0f172a;">¿Quiénes somos?</h2>
+      <p style="font-size:16px;line-height:1.7;">
+        DR Advisory es una firma de consultoría empresarial que acompaña a empresas en crecimiento
+        en la toma de decisiones estratégicas, aportando dirección, estructura y criterio para
+        escalar de forma ordenada, controlada y con visión de largo plazo.
+      </p>
+    </section>
 
     <!-- SERVICIOS -->
-    <h2 style="color:#0f172a;margin-top:50px;">Servicios</h2>
+    <section id="servicios">
+      <h2 style="color:#0f172a;margin-top:50px;">Servicios</h2>
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:18px;">
-      
-      <div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
-        <h3 style="margin-top:0;">Dirección estratégica</h3>
-        <p>
-          Definición del rumbo del negocio y de sus prioridades estratégicas, alineando decisiones,
-          objetivos y visión de largo plazo.
-        </p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+                  gap:18px;margin-top:18px;">
+
+        <div style="background:#fff;padding:20px;border-radius:10px;
+                    box-shadow:0 4px 10px rgba(0,0,0,.06);">
+          <h3>Dirección estratégica</h3>
+          <p>Definición del rumbo del negocio y alineación de decisiones clave con visión de largo plazo.</p>
+        </div>
+
+        <div style="background:#fff;padding:20px;border-radius:10px;
+                    box-shadow:0 4px 10px rgba(0,0,0,.06);">
+          <h3>Estrategia de crecimiento</h3>
+          <p>Diseño de la estrategia comercial y de posicionamiento para impulsar el crecimiento.</p>
+        </div>
+
+        <div style="background:#fff;padding:20px;border-radius:10px;
+                    box-shadow:0 4px 10px rgba(0,0,0,.06);">
+          <h3>Optimización operativa</h3>
+          <p>Orden y fortalecimiento de procesos administrativos para mayor eficiencia y control.</p>
+        </div>
+
+        <div style="background:#fff;padding:20px;border-radius:10px;
+                    box-shadow:0 4px 10px rgba(0,0,0,.06);">
+          <h3>Arquitectura financiera</h3>
+          <p>Estructura financiera sólida para decisiones estratégicas con información real.</p>
+        </div>
+
       </div>
+    </section>
 
-      <div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
-        <h3 style="margin-top:0;">Estrategia de crecimiento</h3>
-        <p>
-          Diseño de la estrategia comercial y de posicionamiento para impulsar el crecimiento del
-          negocio con coherencia y enfoque.
-        </p>
-      </div>
-
-      <div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
-        <h3 style="margin-top:0;">Optimización operativa</h3>
-        <p>
-          Orden y fortalecimiento de la estructura administrativa y los procesos internos para
-          mejorar eficiencia y control.
-        </p>
-      </div>
-
-      <div style="background:#fff;padding:20px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
-        <h3 style="margin-top:0;">Arquitectura financiera</h3>
-        <p>
-          Construcción de una estructura financiera sólida que permita leer el negocio y decidir
-          con información real.
-        </p>
-      </div>
-
-    </div>
-
-    <!-- FILOSOFÍA INSTITUCIONAL -->
-    <h2 style="color:#0f172a;margin-top:60px;">Filosofía institucional</h2>
-
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:18px;">
-
-      <div style="background:#fff;padding:22px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
-        <h3 style="margin-top:0;">Misión</h3>
-        <p>
-          Acompañar a empresas en crecimiento mediante dirección estratégica, arquitectura financiera,
-          optimización operativa y diseño de crecimiento, construyendo organizaciones preparadas para escalar.
-        </p>
-      </div>
-
-      <div style="background:#fff;padding:22px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
-        <h3 style="margin-top:0;">Visión</h3>
-        <p>
-          Consolidar a DR Advisory como una firma institucional de referencia, reconocida por su criterio
-          estratégico y permanencia en el crecimiento de los negocios.
-        </p>
-      </div>
-
-      <div style="background:#fff;padding:22px;border-radius:10px;box-shadow:0 4px 10px rgba(0,0,0,.06);">
-        <h3 style="margin-top:0;">Principios</h3>
-        <ul style="margin:0;padding-left:18px;line-height:1.8;">
-          <li>El criterio estratégico orienta cada decisión.</li>
-          <li>La estructura es la base del crecimiento sostenible.</li>
-          <li>Priorizamos el análisis profundo y la visión de largo plazo.</li>
-          <li>Nuestro enfoque metodológico forma parte del valor de la firma.</li>
-        </ul>
-      </div>
-
-    </div>
-
-    <!-- A QUIÉN ACOMPAÑAMOS -->
-    <div style="background:#0f172a;color:#fff;padding:28px;border-radius:12px;margin-top:60px;">
-      <h2 style="margin-top:0;">A quién acompañamos</h2>
-      <p style="margin:0;line-height:1.7;">
-        Colaboramos con empresas en crecimiento y directivos que requieren mayor orden, control
-        y dirección para su siguiente etapa de evolución.
+    <!-- ENFOQUE -->
+    <section id="enfoque" style="margin-top:60px;">
+      <h2 style="color:#0f172a;">Nuestro enfoque</h2>
+      <p style="line-height:1.7;">
+        Nuestro rol es aportar dirección, estructura y criterio estratégico, acompañando a la alta
+        dirección en las decisiones que definen el rumbo y la evolución del negocio.
       </p>
-    </div>
+    </section>
 
     <!-- CONTACTO -->
-    <h2 style="color:#0f172a;margin-top:60px;">Contacto</h2>
-    <p>¿Deseas iniciar una conversación estratégica?</p>
-    <p>
-      <strong>Correo:</strong>
-      <a href="mailto:dradvisory16@gmail.com">dradvisory16@gmail.com</a>
-    </p>
+    <section id="contacto" style="margin-top:60px;">
+      <h2 style="color:#0f172a;">Contacto</h2>
+      <p>
+        <strong>¿Deseas iniciar una conversación estratégica?:</strong></p>
+        <a href="mailto:dradvisory16@gmail.com">dradvisory16@gmail.com</a>
+      </p>
 
-    <p style="margin-top:16px;"><strong>Sigue nuestra trayectoria en:</strong></p>
-    <p>
-      <a href="https://www.facebook.com/share/178SAQs3rK/?mibextid=wwXIfr" target="_blank">Facebook</a> |
-      <a href="https://www.instagram.com/dr_advisory?igsh=Z3gwanBldnFndTJz&utm_source=qr" target="_blank">Instagram</a>
-    </p>
+      <p style="margin-top:16px;"><strong>Sigue nuestra trayectoria en:</strong></p>
+      <p>
+        <a href="https://www.facebook.com/share/178SAQs3rK/?mibextid=wwXIfr" target="_blank">Facebook</a> |
+        <a href="https://www.instagram.com/dr_advisory?igsh=Z3gwanBldnFndTJz&utm_source=qr" target="_blank">Instagram</a>
+      </p>
+    </section>
 
   </div>
 
   <!-- FOOTER -->
-  <div style="background:#0f172a;color:#fff;text-align:center;padding:18px 20px;">
-    © DR Advisory · Consultoría Empresarial
-  </div>
-
-</body>
-</html>
+  <footer style="background:#0f172a;color:#fff;text-align:center;padding:18px 20px;">
+    © DR Advisory · Consultoría Empr
